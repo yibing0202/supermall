@@ -15,10 +15,15 @@ export default {
 <style>
 .nav-bar {
   display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
   height: 44px;
   line-height: 44px;
   text-align: center;
   box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  z-index: 1;
 }
 .left, .right {
   width: 60px;
